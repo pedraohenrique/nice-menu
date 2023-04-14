@@ -1,13 +1,102 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #e8e4e1;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar {
+  background-color: #fff;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.navbar-title {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.icon-button button {
+  height: 40px;
+  width: 40px;
+  background: none;
+  border-style: hidden;
+}
+
+.menu {
+  background-color: #1f2021;
+  color: #fff;
+  height: 100vh;
+  width: 55vw;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  -webkit-transform: translateX(-110%);
+  -ms-transform: translateX(-110%);
+  transform: translateX(-110%);
+}
+
+.menu-hide {
+  transform: translate3d(100vw, 0, 0);
+}
+
+.menu-show {
+  transform: translate3d(0vw, 0, 0);
+  overflow: hidden;
+}
+
+.menu-topbar {
+  align-items: center;
+  display: flex;
+  padding: 0px 10px;
+  border-bottom: 1px solid white;
+}
+
+.menu-topbar svg {
+  fill: white;
+}
+
+.menu-title {
+  text-align: left;
+  flex-grow: 1;
+}
+.menu-body {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu ul {
+  padding: 0px 8px;
+}
+
+.menu li {
+  list-style: none;
+  padding: 8px 0px;
+}
+
+.menu-primary-item {
+  font-size: 28px;
+}
+
+.menu-secondary {
+  text-align: center;
+}
+.menu-secondary-item {
+  font-size: 16px;
+  display: inline-block;
+  padding: 4px 10px !important;
+  text-align: center;
 }

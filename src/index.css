@@ -24,6 +24,10 @@ body {
   border-style: hidden;
 }
 
+.icon-button button:hover {
+  cursor: pointer;
+}
+
 .menu {
   background-color: #1f2021;
   color: #fff;

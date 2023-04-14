@@ -15,7 +15,7 @@
     This project is part of a coding challenge in an interviewing process for a Front End position. The details will not be shown here because another developers can take the same test in the future.
     <br />
     <br />
-    <a href="https://github.com/pedraohenrique/nice-menu">View Demo</a>
+    <a href="https://nice-menu.vercel.app/" target="_blank">View Demo</a>
     ·
     <a href="https://github.com/pedraohenrique/nice-menu/issues">Report Bug</a>
     ·
@@ -51,7 +51,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://nice-menu.vercel.app/)
 
 DISCLAIMER: This project is part of a coding challenge and it has no commercial purposes.
 
